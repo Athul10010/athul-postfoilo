@@ -3,9 +3,771 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio - athul </title>
+
+    <meta name="theme-color" content="#08090d">
+    <meta name="description"
+          content="The personal portfolio of Athul Tom Joseph, a student exploring web development, programming, and creative technology.">
+
+    <title>Athul Tom Joseph | Developer & Creative Thinker</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body id="top">
+
+    <!-- Background atmosphere -->
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="wordmark" aria-label="Athul Tom Joseph home">
+                <span class="wordmark-icon">A<span>.</span></span>
+                <span class="wordmark-name">ATHUL<span> TOM</span></span>
+            </a>
+
+            <input
+                type="checkbox"
+                id="menu-toggle"
+                class="menu-toggle"
+                aria-label="Toggle navigation menu"
+            >
+
+            <label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+                <a href="#contact" class="button button-small button-primary">
+                    Let's Talk <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        <span>STUDENT · ASPIRING DEVELOPER</span>
+                    </div>
+
+                    <p class="hero-pretitle">HELLO, WORLD. I'M</p>
+
+                    <h1>
+                        Athul Tom
+                        <span class="gradient-text">Joseph<span class="accent-dot">.</span></span>
+                    </h1>
+
+                    <h2 class="hero-tagline">
+                        Building digital experiences
+                        <span>with code & creativity.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm a student passionate about technology, programming,
+                        and thoughtful digital design. I'm learning, experimenting,
+                        and building my skills one project at a time.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">
+                            Explore My Work
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Contact Me
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span class="meta-line"></span>
+                        <span>BASED IN PULPALLY, KERALA, INDIA</span>
+                    </div>
+                </div>
+
+                <!-- Abstract profile visual.
+                     Replace this panel with a real image when available. -->
+                <div class="hero-visual" aria-label="Decorative developer profile illustration">
+
+                    <div class="visual-orbit orbit-one"></div>
+                    <div class="visual-orbit orbit-two"></div>
+
+                    <div class="visual-card">
+                        <div class="visual-card-top">
+                            <span class="window-dots">
+                                <i></i><i></i><i></i>
+                            </span>
+                            <span class="visual-label">CREATIVE SPACE / 001</span>
+                        </div>
+
+                        <div class="visual-center">
+                            <div class="monogram">A<span>.</span></div>
+                            <div class="monogram-ring"></div>
+                        </div>
+
+                        <div class="code-lines" aria-hidden="true">
+                            <span><b>01</b> const passion = "technology";</span>
+                            <span><b>02</b> const mindset = "keep learning";</span>
+                            <span><b>03</b> buildSomethingMeaningful();</span>
+                        </div>
+
+                        <div class="visual-card-bottom">
+                            <span>DESIGN MINDFULLY.</span>
+                            <span>BUILD BOLDLY. ↗</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-chip chip-top">
+                        <span class="chip-symbol">&lt;/&gt;</span>
+                        <span>Clean code</span>
+                    </div>
+
+                    <div class="floating-chip chip-bottom">
+                        <span class="chip-symbol">✳</span>
+                        <span>Creative thinking</span>
+                    </div>
+
+                    <div class="visual-index">ATJ — 2026</div>
+                </div>
+            </div>
+
+            <div class="container hero-bottom">
+                <span>SCROLL TO DISCOVER</span>
+                <span class="scroll-line"></span>
+                <span>01 / 06</span>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-border" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div class="section-label">
+                        <span>01</span> ABOUT ME
+                    </div>
+
+                    <h2>
+                        Curious by nature.
+                        <span class="muted-heading">Driven to create.</span>
+                    </h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p class="lead">
+                            I believe that every great digital experience starts
+                            with curiosity and a willingness to learn.
+                        </p>
+
+                        <p>
+                            I'm Athul Tom Joseph, a college student from Pulpally,
+                            Wayanad, Kerala. My interests include programming,
+                            web development, and creative design. I enjoy exploring
+                            how technology works and turning ideas into practical
+                            digital experiences.
+                        </p>
+
+                        <p>
+                            I'm currently developing my skills in HTML, CSS,
+                            Python, and C/C++. This portfolio is a space to document
+                            my learning journey and share the work I create along
+                            the way.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's connect <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                    <div class="about-facts">
+
+                        <article class="fact-card">
+                            <div class="fact-icon" aria-hidden="true">⌘</div>
+                            <div>
+                                <span class="fact-label">EDUCATION</span>
+                                <h3>BSc Computer Science</h3>
+                                <p>Mary Matha Arts and Science College</p>
+                                <p class="fact-detail">Mananthavady, Kerala</p>
+                            </div>
+                        </article>
+
+                        <article class="fact-card">
+                            <div class="fact-icon" aria-hidden="true">◎</div>
+                            <div>
+                                <span class="fact-label">LOCATION</span>
+                                <h3>Pulpally, Wayanad</h3>
+                                <p>Kerala, India</p>
+                            </div>
+                        </article>
+
+                        <article class="fact-card">
+                            <div class="fact-icon" aria-hidden="true">✳</div>
+                            <div>
+                                <span class="fact-label">WHAT I ENJOY</span>
+                                <h3>Technology & Creativity</h3>
+                                <p>Coding, design, and lifelong learning</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-border" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div class="section-label">
+                        <span>02</span> MY TOOLKIT
+                    </div>
+
+                    <h2>
+                        Skills I'm building.
+                        <span class="muted-heading">Ideas I'm exploring.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        A growing set of technical and creative skills that
+                        I'm developing through practice and learning.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <span class="skill-symbol html-symbol" aria-hidden="true">5</span>
+                        <div>
+                            <h3>HTML5</h3>
+                            <p>Semantic page structure and accessible markup.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-symbol css-symbol" aria-hidden="true">3</span>
+                        <div>
+                            <h3>CSS3</h3>
+                            <p>Responsive layouts, visual styling, and animations.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-symbol python-symbol" aria-hidden="true">Py</span>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Programming fundamentals and problem-solving.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-symbol cpp-symbol" aria-hidden="true">C+</span>
+                        <div>
+                            <h3>C / C++</h3>
+                            <p>Core programming concepts and logic building.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-symbol web-symbol" aria-hidden="true">⌘</span>
+                        <div>
+                            <h3>Web Development</h3>
+                            <p>Building and styling websites for different screens.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-symbol language-symbol" aria-hidden="true">Aa</span>
+                        <div>
+                            <h3>Malayalam–English</h3>
+                            <p>Translation and communication across languages.</p>
+                        </div>
+                        <span class="skill-arrow" aria-hidden="true">↗</span>
+                    </article>
+
+                </div>
+
+                <p class="skills-note">
+                    <span aria-hidden="true">✳</span>
+                    Always learning. Always improving.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-border" id="projects">
+            <div class="container">
+
+                <div class="section-heading project-heading">
+                    <div>
+                        <div class="section-label">
+                            <span>03</span> SELECTED WORK
+                        </div>
+
+                        <h2>
+                            Ideas into
+                            <span class="muted-heading">experiences.</span>
+                        </h2>
+                    </div>
+
+                    <p class="section-description">
+                        A starting point for showcasing projects as I build
+                        and experiment. The cards below are placeholders.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-art project-art-one">
+                            <span class="project-placeholder-label">
+                                PLACEHOLDER PROJECT
+                            </span>
+
+                            <div class="browser-mockup">
+                                <div class="browser-bar">
+                                    <i></i><i></i><i></i>
+                                    <span>your-portfolio.dev</span>
+                                </div>
+
+                                <div class="browser-content">
+                                    <span class="mock-label">PERSONAL / 001</span>
+                                    <div class="mock-title">Your story.<br>Online.</div>
+                                    <div class="mock-line"></div>
+                                    <div class="mock-button"></div>
+                                    <div class="mock-orb"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>01 / WEB DESIGN</span>
+                                <span class="placeholder-tag">PLACEHOLDER</span>
+                            </div>
+
+                            <h3>Personal Portfolio Website</h3>
+
+                            <p>
+                                A personal website to introduce yourself,
+                                showcase your skills, and share your journey.
+                                Replace this description with your real project details.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Responsive Design</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#contact" aria-label="Add the live demo URL for Personal Portfolio Website">
+                                    Live Demo <span aria-hidden="true">↗</span>
+                                </a>
+                                <a href="#contact" aria-label="Add the source code URL for Personal Portfolio Website">
+                                    Source Code <span aria-hidden="true">↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-two">
+                            <span class="project-placeholder-label">
+                                PLACEHOLDER PROJECT
+                            </span>
+
+                            <div class="responsive-mockup">
+                                <div class="responsive-panel">
+                                    <div class="responsive-heading"></div>
+                                    <div class="responsive-heading short"></div>
+                                    <div class="responsive-image"></div>
+                                    <div class="responsive-lines"></div>
+                                </div>
+
+                                <div class="responsive-phone">
+                                    <div class="phone-speaker"></div>
+                                    <div class="phone-content">
+                                        <div></div><div></div><div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>02 / FRONTEND</span>
+                                <span class="placeholder-tag">PLACEHOLDER</span>
+                            </div>
+
+                            <h3>Responsive Web Design</h3>
+
+                            <p>
+                                A responsive website concept designed to adapt
+                                to desktop, tablet, and mobile screens.
+                                Replace this with details of your actual work.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span>HTML5</span>
+                                <span>CSS Grid</span>
+                                <span>Flexbox</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#contact" aria-label="Add the live demo URL for Responsive Web Design">
+                                    Live Demo <span aria-hidden="true">↗</span>
+                                </a>
+                                <a href="#contact" aria-label="Add the source code URL for Responsive Web Design">
+                                    Source Code <span aria-hidden="true">↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-three">
+                            <span class="project-placeholder-label">
+                                PLACEHOLDER PROJECT
+                            </span>
+
+                            <div class="terminal-mockup">
+                                <div class="terminal-top">
+                                    <span>python_project.py</span>
+                                    <span>●</span>
+                                </div>
+
+                                <div class="terminal-code">
+                                    <p><span>01</span> <b>def</b> solve_problem():</p>
+                                    <p><span>02</span> &nbsp;&nbsp;idea = <em>"keep learning"</em></p>
+                                    <p><span>03</span> &nbsp;&nbsp;<b>return</b> idea</p>
+                                    <p class="terminal-output">
+                                        <span>04</span> &gt; Ready to build...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>03 / PROGRAMMING</span>
+                                <span class="placeholder-tag">PLACEHOLDER</span>
+                            </div>
+
+                            <h3>Python Programming Project</h3>
+
+                            <p>
+                                A space for a Python application or programming
+                                exercise. Add the real problem, approach,
+                                and result once the project is complete.
+                            </p>
+
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Problem Solving</span>
+                                <span>Logic</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#contact" aria-label="Add the demo URL for Python Programming Project">
+                                    Project Details <span aria-hidden="true">↗</span>
+                                </a>
+                                <a href="#contact" aria-label="Add the source code URL for Python Programming Project">
+                                    Source Code <span aria-hidden="true">↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="placeholder-notice">
+                    These are sample project concepts, not claims of completed work.
+                    Replace the descriptions, previews, and links with your own projects.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section section-border" id="education">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div class="section-label">
+                        <span>04</span> EDUCATION
+                    </div>
+
+                    <h2>
+                        Learning is
+                        <span class="muted-heading">a work in progress.</span>
+                    </h2>
+                </div>
+
+                <div class="education-layout">
+                    <div class="education-intro">
+                        <p class="lead">
+                            Building a foundation for what comes next.
+                        </p>
+
+                        <p>
+                            My academic journey and independent learning
+                            help me explore technology, strengthen my
+                            fundamentals, and discover new interests.
+                        </p>
+                    </div>
+
+                    <div class="timeline">
+
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+
+                            <div class="timeline-card">
+                                <div class="timeline-top">
+                                    <span class="timeline-category">UNDERGRADUATE EDUCATION</span>
+                                    <span class="timeline-date">[START YEAR] — [END YEAR / PRESENT]</span>
+                                </div>
+
+                                <!-- EDIT: Set the correct programme before publishing. -->
+                                <h3>[CONFIRM: BSc Computer Science OR BSc Zoology]</h3>
+
+                                <p class="timeline-college">
+                                    Mary Matha Arts and Science College
+                                </p>
+
+                                <p>
+                                    Mananthavady, Kerala, India
+                                </p>
+
+                                <span class="timeline-status">
+                                    <span class="status-dot"></span>
+                                    Programme details editable
+                                </span>
+                            </div>
+                        </article>
+
+                        <article class="timeline-item">
+                            <div class="timeline-marker" aria-hidden="true"></div>
+
+                            <div class="timeline-card">
+                                <div class="timeline-top">
+                                    <span class="timeline-category">ADDITIONAL LEARNING</span>
+                                    <span class="timeline-date">[EDITABLE]</span>
+                                </div>
+
+                                <h3>Independent Learning & Practice</h3>
+
+                                <p>
+                                    Exploring programming, web technologies,
+                                    and creative digital projects.
+                                </p>
+
+                                <span class="timeline-status">
+                                    Ongoing personal development
+                                </span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-border contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-banner">
+                    <div class="contact-banner-glow" aria-hidden="true"></div>
+
+                    <div class="section-label">
+                        <span>05</span> GET IN TOUCH
+                    </div>
+
+                    <h2>
+                        Have an idea?
+                        <span class="gradient-text">Let's talk.</span>
+                    </h2>
+
+                    <p>
+                        Interested in technology, creative projects, or simply
+                        exchanging ideas? I'd be happy to connect.
+                    </p>
+
+                    <!-- EDIT: Replace with your actual email address. -->
+                    <a class="button button-primary"
+                       href="mailto:YOUR_EMAIL@example.com">
+                        Say Hello <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-details">
+                        <div class="section-label">CONTACT DETAILS</div>
+
+                        <h3>Let's make a connection.</h3>
+
+                        <p>
+                            Choose a platform to connect, or use the form
+                            to prepare a message.
+                        </p>
+
+                        <a class="contact-link"
+                           href="mailto:YOUR_EMAIL@example.com">
+                            <span class="contact-icon" aria-hidden="true">@</span>
+                            <span>
+                                <small>EMAIL</small>
+                                <strong>YOUR_EMAIL@example.com</strong>
+                            </span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+
+                        <!-- EDIT: Replace # with your actual profile URL. -->
+                        <a class="contact-link" href="#"
+                           aria-label="Add your GitHub profile URL">
+                            <span class="contact-icon" aria-hidden="true">GH</span>
+                            <span>
+                                <small>GITHUB</small>
+                                <strong>YOUR_GITHUB_USERNAME</strong>
+                            </span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+
+                        <a class="contact-link" href="#"
+                           aria-label="Add your LinkedIn profile URL">
+                            <span class="contact-icon" aria-hidden="true">in</span>
+                            <span>
+                                <small>LINKEDIN</small>
+                                <strong>YOUR_LINKEDIN_PROFILE</strong>
+                            </span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+
+                        <a class="contact-link" href="#"
+                           aria-label="Add your Instagram profile URL">
+                            <span class="contact-icon" aria-hidden="true">IG</span>
+                            <span>
+                                <small>INSTAGRAM</small>
+                                <strong>YOUR_INSTAGRAM_USERNAME</strong>
+                            </span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <div class="form-heading">
+                            <span>01 — SEND A MESSAGE</span>
+                            <span class="form-indicator">HTML FORM</span>
+                        </div>
+
+                        <!--
+                            This form is front-end only.
+                            Add a backend or form service to receive submissions.
+                        -->
+                        <form class="contact-form"
+                              action="#contact"
+                              method="get">
+
+                            <div class="form-field">
+                                <label for="name">Your name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    autocomplete="name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-field">
+                                <label for="email">Email address</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-field">
+                                <label for="message">Your message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="Tell me what's on your mind..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <button type="submit"
+                                    class="button button-primary form-submit">
+                                Submit Form <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <p class="form-note">
+                                This demo form does not deliver messages.
+                                Connect a backend or form service before publishing.
+                            </p>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <a href="#home" class="wordmark footer-wordmark">
+                <span class="wordmark-icon">A<span>.</span></span>
+                <span class="wordmark-name">ATHUL<span> TOM</span></span>
+            </a>
+
+            <p>
+                Designed with intention. Built while learning.
+            </p>
+
+            <div class="footer-right">
+                <span>© [YEAR] ATHUL TOM JOSEPH</span>
+                <a href="#top" class="back-to-top">
+                    BACK TO TOP ↑
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>
